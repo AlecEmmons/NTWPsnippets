@@ -1,5 +1,6 @@
+// NOTE: this is set up for the pantehon multidev environment. Only works when combined with wp-config "define pantheon environments" snippet
 
-// google tag manager + ANALYTICSytics inline
+// google tag manager + analytics inline
 if(defined( 'IS_PANTHEON_LIVE' )) {
     define('GOOGLETM', 'GTM-T49RMKQ');
     define('GOOGLEANALYTICS', 'UA-110395628-4');
